@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #00b4d8;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #00b4d8;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo a {
+  font-size: 30px;
+  font-family: Arial;
+  color: #08090a;
+  text-decoration: none;
+  border: 2px solid transparent;
+  transition: 0.5s;
+}
+
+.logo a:hover {
+  border-bottom: 2px solid #03045e;
+}
+
+.txt-footer {
+  color: #03045e;
+}
+
+.footer-partners {
+  color: #03045e;
+}
+
+.section {
+  flex: 1 0 auto;
+  height: auto;
+  width: 100%;
+}
+
+.section .flex-container {
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.img-content {
+  width: 100%;
+  height: auto;
+  background-image: url("https://storage.googleapis.com/twg-content/original_images/TwG-4011-01-Thumbnail.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.txt-content {
+  font-family: Arial;
+  width: 100%;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  align-items: center;
+  padding: 20px;
+}
+
+.btn-content {
+  color: #fff;
+  text-decoration: none;
+  background-color: #0096c7;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin: 0px 5px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.btn-content:hover {
+  background-color: #caf0f8;
+  color: #03045e;
+  cursor: pointer;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mentores {
+  display: flex;
+  max-width: 800px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px;
+}
+
+.card-container {
+  padding: 2px 16px;
+}
+
+.card-container h4 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
